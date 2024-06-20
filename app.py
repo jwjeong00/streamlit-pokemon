@@ -7,23 +7,23 @@ st.set_page_config(
 )
 st.markdown("""
 <style>
-img {
-    max-height: 300px;
-}
-.st-emotion-cache-o1htok div {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-}
-[data-testid="stExpanderToggleIcon"] {
-    visibility: hidden;
-}
-.st-emotion-cache-1h9usn1 {
-    pointer-events: none;
-}
-[data-testid="StyledFullScreenButton"] {
-    visibility: hidden;
-}
+# img {
+#     max-height: 300px;
+# }
+# [data-testid="column"] div {
+#     display: flex;
+#     justify-content: center;
+#     font-size: 20px;
+# }
+# [data-testid="stExpanderToggleIcon"] {
+#     visibility: hidden;
+# }
+# .st-emotion-cache-p5msec {
+#     pointer-events: none;
+# }
+# [data-testid="StyledFullScreenButton"] {
+#     visibility: hidden;
+# }
 </style>
 """, unsafe_allow_html=True)
 
